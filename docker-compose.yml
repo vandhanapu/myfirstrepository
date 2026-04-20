@@ -1,0 +1,11 @@
+services:
+  hr-onboarding-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hr-onboarding-assistant
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: unless-stopped

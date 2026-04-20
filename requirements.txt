@@ -1,0 +1,6 @@
+openai-agents
+langfuse<3.0.0
+openai
+streamlit
+python-dotenv
+pydantic
